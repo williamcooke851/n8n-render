@@ -1,0 +1,11 @@
+{
+  "name": "n8n-render",
+  "version": "1.0.0",
+  "description": "Stable n8n deployment for Render free tier",
+  "scripts": {
+    "start": "n8n start --port $PORT"
+  },
+  "dependencies": {
+    "n8n": "^1.73.0"
+  }
+}
